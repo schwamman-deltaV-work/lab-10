@@ -116,3 +116,42 @@ main h3 {
     border: 3px solid gray;
 }
 
+footer .left h3, footer .left p {
+    width:100%;
+
+}
+footer .left {
+    width:80%;
+}
+ footer .left img{
+     float: left;
+     margin-right: 10px;
+     width: 50px;
+ }
+ footer .left h3 {
+     font-size: 1.2rem;
+     font-weight: bold;
+ }
+ footer .left p {
+     font-size:1rem;
+     color: #424242;
+     margin-top: 7px;
+ }
+ .right button {
+     color:white;
+     background-color: orangered;
+     margin-top: 15px;
+ }
+ footer h6 {
+     text-align: center;
+     color: #424242;
+     font-size: .7rem;
+ }
+
+ footer .logo {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 15px;
+     margin-top: 15px;
+ }
