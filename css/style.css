@@ -1,7 +1,7 @@
 body {
-    margin-left: 15%;
-    margin-right: 15%;
-
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
@@ -44,7 +44,8 @@ header h1 {
 }
 
 #break {
-    border: 5px solid gray;
+    border: 3px solid gray;
+    margin-bottom: 20px;
 } 
 h1 {
     font-family: 'Lobster', cursive;
@@ -65,14 +66,53 @@ main h3 {
     float:left;
 
 }
+
+.print {
+    margin-top: 15px;
+}
 .right {
     float:right;
 }
 .print p {
     font-size: .5rem;
+    margin-top: 5px;
     
 }
 .print img {
     width: 12px;
     
 }
+
+#chocoPizza {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+#ingredients {
+    background-image: url("../img/list-bg.png");
+    padding: 30px;
+    color: #424242;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#recipeText {
+    color: #424242;
+}
+
+#recipeText p {
+    margin-bottom: 15px;
+    text-indent: 2rem;
+    
+}
+
+.clearDiv {
+    clear: both;
+}
+
+#break2 {
+    margin-top: 30px;
+    border: 3px solid gray;
+}
+
