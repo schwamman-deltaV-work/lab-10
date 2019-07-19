@@ -3,6 +3,46 @@ body {
     margin-right: 15%;
 
 }
-header:first-child {
-    float:left;
+
+header {
+    height: 60px;
+    margin-top: 15px;
+    text-align: justify;
 }
+
+header img, header div #headerText  {
+    float: left;
+   
+}
+
+header:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+#logo {
+    display: inline-block;
+}
+
+#logo img {
+    width: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#socialLinks {
+    display: inline-block;
+    vertical-align: top;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+#break {
+    border: 5px solid gray;
+} 
