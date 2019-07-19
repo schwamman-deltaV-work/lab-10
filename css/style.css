@@ -46,3 +46,33 @@ header h1 {
 #break {
     border: 5px solid gray;
 } 
+h1 {
+    font-family: 'Lobster', cursive;
+}
+header h2 {
+    font-size: .45rem;
+}
+main h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+}
+main h3 {
+    font-size: .6rem;
+}
+
+.left {
+    float:left;
+
+}
+.right {
+    float:right;
+}
+.print p {
+    font-size: .5rem;
+    
+}
+.print img {
+    width: 12px;
+    
+}
