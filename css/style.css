@@ -1,0 +1,157 @@
+body {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 60px;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+header img, header div #headerText  {
+    float: left;
+   
+}
+
+header:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+#logo {
+    display: inline-block;
+}
+
+#logo img {
+    width: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#socialLinks {
+    display: inline-block;
+    vertical-align: top;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+#break {
+    border: 3px solid gray;
+    margin-bottom: 20px;
+} 
+h1 {
+    font-family: 'Lobster', cursive;
+}
+header h2 {
+    font-size: .45rem;
+}
+main h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+}
+main h3 {
+    font-size: .6rem;
+}
+
+.left {
+    float:left;
+
+}
+
+.print {
+    margin-top: 15px;
+}
+.right {
+    float:right;
+}
+.print p {
+    font-size: .5rem;
+    margin-top: 5px;
+    
+}
+.print img {
+    width: 12px;
+    
+}
+
+#chocoPizza {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+#ingredients {
+    background-image: url("../img/list-bg.png");
+    padding: 30px;
+    color: #424242;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#recipeText {
+    color: #424242;
+}
+
+#recipeText p {
+    margin-bottom: 15px;
+    text-indent: 2rem;
+    
+}
+
+.clearDiv {
+    clear: both;
+}
+
+#break2 {
+    margin-top: 30px;
+    border: 3px solid gray;
+}
+
+footer .left h3, footer .left p {
+    width:100%;
+
+}
+footer .left {
+    width:80%;
+}
+ footer .left img{
+     float: left;
+     margin-right: 10px;
+     width: 50px;
+ }
+ footer .left h3 {
+     font-size: 1.2rem;
+     font-weight: bold;
+ }
+ footer .left p {
+     font-size:1rem;
+     color: #424242;
+     margin-top: 7px;
+ }
+ .right button {
+     color:white;
+     background-color: orangered;
+     margin-top: 15px;
+ }
+ footer h6 {
+     text-align: center;
+     color: #424242;
+     font-size: .7rem;
+ }
+
+ footer .logo {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 15px;
+     margin-top: 15px;
+ }
